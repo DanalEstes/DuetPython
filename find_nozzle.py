@@ -1,3 +1,12 @@
+# Python Script to align multiple tools on Jubilee printer
+# Using images from USB camera and finding circles in those images
+# Circle find needs lots of tuning...
+#
+# Copyright (C) 2020 Danal Estes all rights reserved.
+# Released under The MIT License. Full text available via https://opensource.org/licenses/MIT
+#
+# Requires OpenCV to be installed on Pi
+# Requires running via the OpenCV installed python (that is why no shebang)
 import datetime
 import imutils
 import time

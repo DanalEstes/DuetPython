@@ -1,3 +1,11 @@
+# Python Script that returns axis coordinates of a Duet RepRap based  printer
+# Works with RRF2 or RRF3
+#
+# Copyright (C) 2020 Danal Estes all rights reserved.
+# Released under The MIT License. Full text available via https://opensource.org/licenses/MIT
+#
+# Requires Python3 
+
 import requests
 import json
 import sys
