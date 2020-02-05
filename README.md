@@ -12,6 +12,12 @@ Python utilities for Duet RepRap based 3D printers, including D3+Pi
 * Requires: Nothing.  Runs on: Any machine that can reach the printer via the network.
 * Does not support Duet passwords at this time.
 
+## installOpenCV.sh
+* Installs openCV on the Pi system image provided by Duet
+* Invoke via: bash installOpenCV.sh
+* Runs for about an hour (depending on type of Pi and internet speed)
+* You MAY need to enlarge your swap file during the install. 
+
 ## toolAlignImageDuet.py
 * Creates G10 commands for tool-to-tool alignment on a multi-tool printer. 
 * Uses the human being for image alignment. 
