@@ -80,9 +80,8 @@ def userInterface():
     tc=input("How many tools to align?\n")
     tc = int(tc)
     if (tc < 2): tc = 2
-    print("IMPORTANT: Before proceeding, enter the commands below in Duet Web console.")
     for tool in range(0,tc):
-        print("G10 P{} X0 Y0".format(tool))
+        gCode("G10 P{} X0 Y0".format(tool))
     print("It is OK to copy/paste, one line at a time.")
     print("")
     for tool in range(0,tc):
