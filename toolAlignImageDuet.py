@@ -81,7 +81,7 @@ def userInterface():
     tc = int(tc)
     if (tc < 2): tc = 2
     for tool in range(0,tc):
-        gCode("G10 P{} X0 Y0".format(tool))
+        print("G10 P{} X0 Y0".format(tool))
     print("It is OK to copy/paste, one line at a time.")
     print("")
     for tool in range(0,tc):

@@ -37,3 +37,8 @@ Python utilities for Duet RepRap based 3D printers, including D3+Pi
 * Should work for ANY toolchanging printer. 
 * Must run in terminal on graphic console (or VNC)
 
+
+## videoOnly.py
+* Creates a video window with a green circle to assist in tool alignment
+* All other actions are up to the user
+* Should work for ANY toolchanging printer

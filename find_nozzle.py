@@ -29,7 +29,7 @@ while True:
 	#Find circles
 	img = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 	img = cv2.medianBlur(img,17)
-	circles = cv2.HoughCircles(img,cv2.HOUGH_GRADIENT,1,50,param1=50,param2=39,minRadius=15,maxRadius=50)
+	circles = cv2.HoughCircles(img,cv2.HOUGH_GRADIENT,1,50,param1=50,param2=39,minRadius=15,maxRadius=20)
 	if (circles is None):
 		continue
 	circles = np.uint16(np.around(circles))
